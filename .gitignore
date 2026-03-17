@@ -1,0 +1,20 @@
+# Виртуальное окружение
+.venv/
+__pycache__/
+*.pyc
+
+.env
+
+# Логи
+*.log
+cron.log
+
+# Docker volumes
+pg_data/
+mongo_data/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
